@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>Hello, world!</title>
+
+    <style>
+      html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .cs-stretch {
+        min-height: 70vh;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container cs-stretch">
+      <div class="jumbotron cs-stretch mt-5 px-5 py-5">
+        <h1 class="display-4">Stream Calculator</h1>
+        <hr>
+
+        <div class="row my-4 py-3">
+
+          <div class="col-sm">
+
+            <form class="px-4 pt-5">
+              <div class="form-group">
+                <label class="h4" for="js-streams">Stream Count</label>
+                <input type="number" class="form-control" style="text-align: center;" id="js-streams">
+              </div>
+            </form>
+
+          </div>
+
+          <div class="col-sm" style="border-left: solid 1px lightgrey;">
+
+            <h4 style="text-align: center">Royalties</h4>
+            <hr class="mb-4">
+
+            <form class="px-4 js-royalties">
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Microsoft-Groove">Microsoft Groove Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Microsoft-Groove">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Soundcloud-GO">Soundcloud GO Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Soundcloud-GO">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Slacker">Slacker Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Slacker">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Tidal">Tidal Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Tidal">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Google-Play">Google Play Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Google-Play">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Deezer">Deezer Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Deezer">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Apple-Music">Apple Music Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Apple-Music">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Rhapsody">Rhapsody Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Rhapsody">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Spotify">Spotify Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Spotify">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Vevo">Vevo Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Vevo">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Aspiro">Aspiro Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Aspiro">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-Soundcloud">Soundcloud Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-Soundcloud">
+              </div>
+              <div class="form-inline py-1" style="float: right;">
+                <label class="mr-4" for="js-YouTube">YouTube Streams</label>
+                <input type="number" class="form-control" style="text-align: right;" id="js-YouTube">
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script>
+      var perStreamDict = {};
+
+      perStreamDict["Spotify"] = 0.003589881
+      perStreamDict["Microsoft Groove"] = 0.031113139
+      perStreamDict["Soundcloud GO"] = 0.01037594
+      perStreamDict["Slacker"] = 0.006153846
+      perStreamDict["Tidal"] = 0.00544
+      perStreamDict["Google Play"] = 0.005278658
+      perStreamDict["Apple Music"] = 0.005103035
+      perStreamDict["Deezer"] = 0.00510566
+      perStreamDict["Rhapsody"] = 0.004579501
+      perStreamDict["Vevo"] = 0.002071429
+      perStreamDict["Aspiro"] = 0.001676301
+      perStreamDict["Soundcloud"] = 0.001305585
+      perStreamDict["YouTube"] = 0.001288172
+
+      var curPlatform = "Spotify";
+      var curStreams = 1000;
+
+      royaltiesDict = {};
+
+      $("#js-streams").val(curStreams);
+
+      function updateStreams(curEvent) {
+        curStreams = $("#js-streams").val();
+        for (var key in perStreamDict){
+          royaltiesDict[key] = curStreams * perStreamDict[key];
+          $("#js-" + key.replace(" ", "-")).val(royaltiesDict[key].toFixed(2));
+        }
+      }
+
+      updateStreams();
+
+      $("#js-streams").change(updateStreams);
+      $("form").on("submit", function(curEvent){ curEvent.preventDefault() });
+
+      $(".js-royalties input").change(function(curEvent) {
+        curStreams = parseFloat(curEvent.target.value)
+        curStreams = curStreams / perStreamDict[curEvent.target.id.substring(3)];
+        curStreams = curStreams.toFixed(0);
+
+        console.log(curStreams)
+        $("#js-streams").val(curStreams);
+        updateStreams();
+      })
+    </script>
+
+  </body>
+</html>
