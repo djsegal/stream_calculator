@@ -158,10 +158,9 @@
 
       $(".js-royalties input").change(function(curEvent) {
         curStreams = parseFloat(curEvent.target.value)
-        curStreams = curStreams / perStreamDict[curEvent.target.id.substring(3)];
+        curStreams = curStreams / perStreamDict[curEvent.target.id.substring(3).replace("-", " ")];
         curStreams = curStreams.toFixed(0);
 
-        console.log(curStreams)
         $("#js-streams").val(curStreams);
         updateStreams();
       })
